@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-    return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    return (<div className="shadow-xl">
+        <Navbar collapseOnSelect expand="lg" bg="bg-slate-900" variant="dark">
   <Container>
   <Navbar.Brand as={Link} to="/"> Arif Islam</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -14,11 +14,12 @@ const Header = () => {
            <Nav.Link as={Link} to="about">About</Nav.Link>
     </Nav>
     <Nav>
-      <Button className="btn btn-primary text-white"><a className="text-white text-decoration-none"href="https://drive.google.com/file/d/1SB9JUxvGnpWgdAqmJXzegAxN3O8sTCzU/view?fbclid=IwAR38fG9WxM6g_qkRcVFlBj8NiJ3FAfKOUnXWq416nsibjsUbZDqiYlsvaXY">Resume</a></Button>
+      <Button className="btn btn-outline btn-success"><a className="text-white font-bold text-decoration-none"href="https://drive.google.com/file/d/1SB9JUxvGnpWgdAqmJXzegAxN3O8sTCzU/view?fbclid=IwAR38fG9WxM6g_qkRcVFlBj8NiJ3FAfKOUnXWq416nsibjsUbZDqiYlsvaXY">Resume</a></Button>
     </Nav>
   </Navbar.Collapse>
   </Container>
 </Navbar>
+</div>
     );
 };
 

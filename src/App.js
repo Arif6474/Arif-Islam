@@ -4,11 +4,12 @@ import './App.css';
 import About from './Pages/Home/About';
 import Home from './Pages/Home/Home';
 import Projects from './Pages/Home/Projects';
+import Footer from './Pages/Shared/Footer';
 import Header from './Pages/Shared/Header';
 
 function App() {
   return (
-    <div >
+    <div className="bg-slate-900" >
       <Header></Header>
     <Routes>
       <Route path="/" element={<Home></Home>}></Route>
@@ -17,7 +18,9 @@ function App() {
       <Route path="/" element={<Home></Home>}></Route>
       <Route path="/" element={<Home></Home>}></Route>
       <Route path="/" element={<Home></Home>}></Route>
+      
     </Routes>
+    <Footer></Footer>
     </div>
   );
 }
