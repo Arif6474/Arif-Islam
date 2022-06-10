@@ -12,6 +12,7 @@ const Header = () => {
     <Nav className="me-auto">
            <Nav.Link as={Link} to="projects">Projects</Nav.Link>
            <Nav.Link as={Link} to="about">About</Nav.Link>
+           <Nav.Link as={Link} to="contact">Contact Me</Nav.Link>
     </Nav>
     <Nav>
       <Button className="btn btn-outline btn-success"><a className="text-white font-bold text-decoration-none"href="https://drive.google.com/file/d/1SB9JUxvGnpWgdAqmJXzegAxN3O8sTCzU/view?fbclid=IwAR38fG9WxM6g_qkRcVFlBj8NiJ3FAfKOUnXWq416nsibjsUbZDqiYlsvaXY">Resume</a></Button>
