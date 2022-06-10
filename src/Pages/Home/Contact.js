@@ -3,32 +3,49 @@ import React from 'react';
 const Contact = () => {
     return (
         <div>
-            <div class="hero min-h-screen">
+            <div class="hero min-h-screen shadow-xl">
   <div class="hero-content flex-col lg:flex-row-reverse">
     <div class="text-center lg:text-left">
-      <h1  class="text-5xl font-bold text-green-300">Contact Me</h1>
-      <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+    <h1  class="text-5xl font-bold text-green-300">Contact Me</h1>
+      <p class="p4-6 text-white font-bold "> Hathazari, Chittagong</p>
+      <p class="p4-6 text-white font-bold ">+8801820082894</p>
+      <p class="p4-6 text-white font-bold"> arifulislam64743@gmail.com</p>
     </div>
-    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+    <div class=" flex-shrink-0 w-full max-w-sm shadow-2xl">
       <div class="card-body">
-        <div class="form-control">
-          <label class="label">
-            <span class="label-text">Email</span>
-          </label>
-          <input type="text" placeholder="email" class="input input-bordered" />
-        </div>
-        <div class="form-control">
-          <label class="label">
-            <span class="label-text">Password</span>
-          </label>
-          <input type="text" placeholder="password" class="input input-bordered" />
-          <label class="label">
-            <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-          </label>
-        </div>
-        <div class="form-control mt-6">
-          <button class="btn btn-primary">Login</button>
-        </div>
+      <form
+       
+        className="grid grid-cols-1 gap-4 mt-4 justify-items-center"
+      >
+        <input
+          
+          type="text"
+          name="name"
+          placeholder = "Name"
+          className="input  input-warning input-bordered w-full max-w-xs"
+        />
+        <input
+          
+          type="email"
+          name="email"
+          placeholder="Email"
+          className="input  input-warning input-bordered w-full max-w-xs"
+        />
+        
+
+        <input
+          type="text"
+          name="description"
+          placeholder="Description"
+          className="input input-bordered input-warning input-lg w-full max-w-xs max-h-32"
+        />
+        
+        <input
+          type="submit"
+          value="Submit"
+          className="btn  btn-outline btn-success w-full my-4 text-white font-bold max-w-xs"
+        />
+      </form>
       </div>
     </div>
   </div>
