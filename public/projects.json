@@ -5,7 +5,12 @@
       "name": "Reliable Parts",
       "title": "Project-1",
       "features": "An admin can manage all users, products, orders etc. He can add or delete products.Users can order products, update their profile and add a review. They will see their orders on my order page.",
-      "technology": "HTML, Tailwind, DaisyUI, React, React router, React query, React toast, React hook form, JWT, Node.js, Express.js, Firebase, Mongodb, Heroku"
+      "technology": "HTML, Tailwind, DaisyUI, React, React router, React query, React toast, React hook form, JWT, Node.js, Express.js, Firebase, Mongodb, Heroku",
+      "live" : "https://reliable-parts.web.app/", 
+      "client" : "https://github.com/Arif6474/reliable-parts-client-side",
+      "server" : "https://github.com/Arif6474/reliable-parts-server-side"
+    
+    
     },
     {
         "_id": "62a33217fa2596131087393b",
@@ -13,7 +18,10 @@
         "name": "Fresh fruits and vegetables",
         "title": "Project-2",
         "features": "If a user logs in, he will see manage inventories,  add items, and my item pages. Users can upload , delete, or restock products.",
-        "technology": "HTML, CSS, React, React bootstrap, React router, React toast, React firebase hooks, Node.js, Express.js, Firebase, Heroku, Mongodb"
+        "technology": "HTML, CSS, React, React bootstrap, React router, React toast, React firebase hooks, Node.js, Express.js, Firebase, Heroku, Mongodb",
+        "live" : "https://fresh-fruits-vegetables.web.app/", 
+      "client" : "https://github.com/Arif6474/fresh-fruits-vegetable-client",
+      "server" : "https://github.com/Arif6474/fresh-fruits-vegetable-server-side"
       },
       {
         "_id": "62a332175d22ced86d9282b3",
@@ -21,7 +29,10 @@
         "name": "Sheba",
         "title": "Project-3",
         "features": "It’s a service provider site. It has a protected page. Implement firebase authentication(email/pass, google and github).",
-        "technology": "HTML, CSS, Bootstrap, React, React router, React toast, React spinner, React firebase hooks,Firebase(authentication) "
+        "technology": "HTML, CSS, Bootstrap, React, React router, React toast, React spinner, React firebase hooks,Firebase(authentication) " ,
+        "live" : "https://sheba-725ac.web.app/", 
+      "client" : "https://github.com/Arif6474/sheba"
+     
       }
   ]
   

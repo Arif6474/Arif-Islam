@@ -5,11 +5,11 @@ const Contact = () => {
         <div>
             <div class="hero min-h-screen shadow-xl">
   <div class="hero-content flex-col lg:flex-row-reverse">
-    <div class="text-center lg:text-left">
-    <h1  class="text-5xl font-bold text-green-300">Contact Me</h1>
-      <p class="p4-6 text-white font-bold "> Hathazari, Chittagong</p>
-      <p class="p4-6 text-white font-bold ">+8801820082894</p>
-      <p class="p4-6 text-white font-bold"> arifulislam64743@gmail.com</p>
+    <div class="ml-4">
+    <h1  class="text-4xl font-bold text-green-300">Contact Me</h1>
+      <p class=" text-white  ">Address: Hathazari, Chittagong</p>
+      <p class=" text-white ">Phone: +8801820082894</p>
+      <p class=" text-white ">Email: arifulislam64743@gmail.com</p>
     </div>
     <div class=" flex-shrink-0 w-full max-w-sm shadow-2xl">
       <div class="card-body">
@@ -33,11 +33,11 @@ const Contact = () => {
         />
         
 
-        <input
+        <textarea
           type="text"
           name="description"
-          placeholder="Description"
-          className="input input-bordered input-warning input-lg w-full max-w-xs max-h-32"
+          placeholder="Message"
+          className="input input-bordered input-warning input-lg w-full h-32 max-w-xs "
         />
         
         <input
