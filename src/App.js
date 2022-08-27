@@ -12,7 +12,7 @@ import Header from './Pages/Shared/Header';
 
 function App() {
   return (
-    <div className="bg-slate-900" >
+    <div style={{background: "linear-gradient(135deg, #5ee7df, #b490ca"}} >
       <Header></Header>
     <Routes>
       <Route path="/" element={<Home></Home>}></Route>

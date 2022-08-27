@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skill = () => {
     return (<div className="py-8 shadow-xl">
-         <h1 className="text-4xl  font-bold text-center my-4 text-green-300">My Skill </h1>
+         <h1 className="text-3xl  font-bold text-center my-4 text-green-300">My Skill </h1>
         <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
         <div className="mx-auto">
             <label className=" text-white font-bold ">HTML</label>
