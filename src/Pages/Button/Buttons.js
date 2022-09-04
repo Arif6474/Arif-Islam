@@ -14,17 +14,22 @@ const Buttons = () => {
     }, 1500);
   };
 
-    return (
-        <ReactiveButton
-        style={{fontSize: '20px' , fontWeight: 'bold'}}
-        color="red"
-        
-        buttonState={state}
-        idleText="Hire me"
-        loadingText="Loading"
-        successText="Done"
-        onClick={onClickHandler}
-      />
+    return (<div data-aos="fade-up"  
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+
+      <ReactiveButton
+      
+      style={{fontSize: '20px' , fontWeight: 'bold'}}
+      color="red"
+      
+      buttonState={state}
+      idleText="Hire me"
+      loadingText="Loading"
+      successText="Done"
+      onClick={onClickHandler}
+    />
+    </div>
     );
 };
 

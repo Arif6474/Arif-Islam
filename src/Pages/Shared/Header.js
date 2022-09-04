@@ -4,7 +4,11 @@ import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
  
-    return (<div  className="shadow-xl">
+    return (<div  
+      data-aos="fade-down" 
+    data-aos-easing="linear"
+    data-aos-duration="1500" 
+      className="shadow-xl">
         <Navbar  collapseOnSelect expand="lg" >
   <Container>
   <NavLink
