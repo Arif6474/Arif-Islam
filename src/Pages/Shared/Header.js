@@ -41,7 +41,7 @@ const Header = () => {
           as={Link} to="contact">Contact Me</NavLink>
     </Nav>
     <Nav>
-      <button className="btn btn-outline  hover:bg-teal-500 text-white border-none"><a className="text-white font-bold text-decoration-none"href="https://drive.google.com/file/d/1We2WR1z1hHQodKQux-zT4kotj8H_5pj4/view?usp=sharing">Resume</a></button>
+<a className="rounded bg-teal-800 hover:bg-teal-500  px-2 py-2 text-white  font-bold text-decoration-none"href="https://drive.google.com/file/d/1We2WR1z1hHQodKQux-zT4kotj8H_5pj4/view?usp=sharing">Resume</a>
     </Nav>
   </Navbar.Collapse>
   </Container>

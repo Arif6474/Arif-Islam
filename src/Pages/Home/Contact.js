@@ -15,10 +15,11 @@ const Contact = () => {
     emailjs.sendForm('service_pg7eh8y', 'template_syp2b0d', form.current, 'VxMdW-cPTFgwTvLDE')
       .then((result) => {
           console.log(result.text);
-          toast.success("message sent successfully");
+          toast.success("Message sent successfully");
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
     return (
        
