@@ -13,6 +13,7 @@ const Personal = () => {
      data-aos="zoom-in-up"
      data-aos-easing="gradient(0,0,1200)"
      data-aos-duration="1500"
+     
    >
    <img src={programming} class="w-96" alt=''/>
    </div>

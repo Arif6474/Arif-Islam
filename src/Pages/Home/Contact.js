@@ -2,6 +2,10 @@ import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './Contact.css'
+import address from '../../images/programming/address.png'
+import phone from '../../images/programming/phone.png'
+import email from '../../images/programming/email2.png'
 const Contact = () => {
   const form = useRef();
 
@@ -17,57 +21,102 @@ const Contact = () => {
       });
   };
     return (
-        <div>
-            <div class="hero min-h-screen shadow-xl">
-  <div class="hero-content flex-col lg:flex-row-reverse">
-    <div class="ml-4">
-    <h1  class="text-3xl font-bold text-green-300">Contact Me</h1>
-      <p class=" text-white  ">Address: Hathazari, Chittagong</p>
-      <p class=" text-white ">Phone: +8801820082894</p>
-      <p class=" text-white ">Email: arifulislam64743@gmail.com</p>
+       
+            <div class="container my-28">
+  <div class="flex flex-col lg:flex-row  justify-between items-center">
+    <div class="basis-1/3 contact-body contact-div contact-box p-4 ">
+    <h1 data-aos="zoom-in-up" 
+      data-aos-easing="linear"
+      data-aos-duration="2000"
+       class="text-3xl font-bold text-white text-center mb-4">Contact Me</h1>
+    <div className="flex flex-row items-center h-10">
+    <img data-aos="zoom-in-down" 
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+       src={address} alt="" className="rounded-full w-6 h-6" /> 
+    <p data-aos="fade-down-left"  
+    data-aos-easing="linear"
+    data-aos-duration="1000"
+     class=" text-white pt-3 pl-2 ">  Hathazari, Chittagong</p>
     </div>
-    <div class=" flex-shrink-0 w-full max-w-sm shadow-2xl">
-      <div class="card-body">
+    <div className="flex flex-row items-center h-10">
+    <img data-aos="zoom-in-down" 
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+       src={phone} alt="" className="rounded-full w-6 h-6" /> 
+    <p data-aos="fade-down-left"  
+    data-aos-easing="linear"
+    data-aos-duration="1500"
+     class=" text-white pt-3 pl-2 ">  +8801820082894</p>
+    </div>
+    <div className="flex flex-row items-center h-10">
+    <img data-aos="zoom-in-down" 
+      data-aos-easing="linear"
+      data-aos-duration="2000"
+       src={email} alt="" className="rounded-full w-6 h-6" /> 
+    <p data-aos="fade-down-left"  
+    data-aos-easing="linear"
+    data-aos-duration="2000"
+     class=" text-white pt-3 pl-2 ">  arifulislam64743@gmail.com</p>
+    </div>
+      
+    </div>
+    <div class=" basis-2/4 box-body box-div box2 p-4">
+   
       <form ref={form} onSubmit={sendEmail}
        
-        className="grid grid-cols-1 gap-4 mt-4 justify-items-center"
+        
       >
+        <div className="grid grid-col lg:grid-cols-2 gap-4 mt-4 justify-items-center">
         <input
+        data-aos="zoom-in-down" 
+        data-aos-easing="linear"
+        data-aos-duration="1500"
           required
           type="text"
           name="user_name"
           placeholder = "Name"
-          className="input  input-warning input-bordered w-full max-w-xs"
+          className="input   input-bordered w-full max-w-xs"
         />
         <input
+        data-aos="zoom-in-down" 
+        data-aos-easing="linear"
+        data-aos-duration="1500"
           required
           type="email"
           name="user_email"
           placeholder="Email"
-          className="input  input-warning input-bordered w-full max-w-xs"
+          className="input   input-bordered w-full max-w-xs"
         />
-        
+        </div>
+        <div className="grid grid-col lg:grid-cols-3 gap-4 mt-4 justify-items-center ">
 
         <textarea
+        data-aos="zoom-in" 
+        data-aos-easing="linear"
+        data-aos-duration="1500"
         required
           type="text"
           name="message"
           placeholder="Type here..."
-          className="input input-bordered input-warning input-lg w-full h-32 max-w-xs "
+          className="input input-bordered  input-lg w-full h-40 my-2  col-span-2 "
         />
         
         <input
+        data-aos="flip-right" 
+        data-aos-easing="linear"
+        data-aos-duration="2000"
           type="submit" value="Send"
-          className="btn  btn-outline btn-success w-full my-4 text-white font-bold max-w-xs"
+          className="rounded bg-teal-800 hover:bg-teal-500 lg:my-16 px-4 py-2 text-white  font-bold w-full lg:w-2/3"
         />
+        </div>
       </form>
-      </div>
+  
       <ToastContainer />
     </div>
   </div>
 </div>
-            
-        </div>
+        
     );
 };
 
