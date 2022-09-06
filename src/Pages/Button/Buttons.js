@@ -20,13 +20,14 @@ const Buttons = () => {
 
       <ReactiveButton
       
-      style={{fontSize: '20px' , fontWeight: 'bold'}}
+      style={{fontSize: '18px' , fontWeight: 'bold'}}
       color="red"
-      
       buttonState={state}
       idleText="Hire me"
       loadingText="Loading"
       successText="Done"
+      outline 
+      shadow
       onClick={onClickHandler}
     />
     </div>

@@ -6,6 +6,7 @@ import Blogs from './Pages/Home/Blogs';
 import Contact from './Pages/Home/Contact';
 import Home from './Pages/Home/Home';
 import Projects from './Pages/Home/Projects';
+import ParticlesBackground from './Pages/Particles/ParticlesBackground';
 import Footer from './Pages/Shared/Footer';
 import Header from './Pages/Shared/Header';
 
@@ -13,6 +14,7 @@ import Header from './Pages/Shared/Header';
 function App() {
   return (
     <div  className="font-serif bg" >
+      <ParticlesBackground/>
       <Header></Header>
     <Routes>
       <Route path="/" element={<Home></Home>}></Route>
