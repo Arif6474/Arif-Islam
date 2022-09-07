@@ -23,13 +23,13 @@ const Contact = () => {
   };
     return (
        
-            <div class="container my-28">
-  <div class="flex flex-col lg:flex-row  justify-between items-center">
-    <div class="basis-1/3 contact-body contact-div contact-box p-4 ">
+            <div className="container my-28">
+  <div className="flex flex-col lg:flex-row  justify-between items-center">
+    <div className="basis-1/3 contact-body contact-div contact-box p-4 ">
     <h1 data-aos="zoom-in-up" 
       data-aos-easing="linear"
       data-aos-duration="2000"
-       class="text-3xl font-bold text-white text-center mb-4">Contact Me</h1>
+       className="text-3xl font-bold text-white text-center mb-4">Contact Me</h1>
     <div className="flex flex-row items-center h-10">
     <img data-aos="zoom-in-down" 
       data-aos-easing="linear"
@@ -38,7 +38,7 @@ const Contact = () => {
     <p data-aos="fade-down-left"  
     data-aos-easing="linear"
     data-aos-duration="1000"
-     class=" text-white pt-3 pl-2 ">  Hathazari, Chittagong</p>
+     className=" text-white pt-3 pl-2 ">  Hathazari, Chittagong</p>
     </div>
     <div className="flex flex-row items-center h-10">
     <img data-aos="zoom-in-down" 
@@ -48,7 +48,7 @@ const Contact = () => {
     <p data-aos="fade-down-left"  
     data-aos-easing="linear"
     data-aos-duration="1500"
-     class=" text-white pt-3 pl-2 ">  +8801820082894</p>
+     className=" text-white pt-3 pl-2 ">  +8801820082894</p>
     </div>
     <div className="flex flex-row items-center h-10">
     <img data-aos="zoom-in-down" 
@@ -58,11 +58,11 @@ const Contact = () => {
     <p data-aos="fade-down-left"  
     data-aos-easing="linear"
     data-aos-duration="2000"
-     class=" text-white pt-3 pl-2 ">  arifulislam64743@gmail.com</p>
+     className=" text-white pt-3 pl-2 ">  arifulislam64743@gmail.com</p>
     </div>
       
     </div>
-    <div class=" basis-2/4 box-body box-div box2 p-4">
+    <div className=" basis-2/4 box-body box-div box2 p-4">
    
       <form ref={form} onSubmit={sendEmail}
        
