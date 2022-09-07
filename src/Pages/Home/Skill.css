@@ -11,6 +11,14 @@
     transition: all ease 0.2s;
     border: 1px solid #333;
   }
+ .box-div2 {
+    
+    background: #0F2027;
+    border-radius: 15px;
+   
+    transition: all ease 0.2s;
+    border: 1px solid #333;
+  }
   .box1 {
     box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);            
   }

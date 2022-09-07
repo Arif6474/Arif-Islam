@@ -1,0 +1,36 @@
+.project-body{
+    height: 100vh;
+    width: 100%;
+    background: #0F2027;
+   
+  }
+  .project-div{
+    height: 350px;
+    width: 300px;
+    background: #0F2027;
+    border-radius: 20px;
+    margin: 20px;
+   }
+   .project-box{
+  box-shadow: -5px -5px 9px rgba(0,255,255,0.7), 5px 5px 9px rgba(94,104,121,0.3);
+  }
+  .project-box2{
+  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+  }
+  .project-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    box-shadow: -5px -5px 9px rgba(5, 31, 29, 0.45), 5px 5px 9px rgba(3, 39, 36, 0.45);
+  }
+  .project-circle::after{
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: inset -5px -5px 9px rgba(0,255,255,0.7), inset 5px 5px 9px rgba(0,255,255,0.7);
+  }

@@ -9,7 +9,7 @@ const Blogs = ({ isVisible}) => {
   
   return (
         <animated.div style={styles}>
-            <h1 class="text-white text-xl text-center"> Coming soon</h1>
+            <h1 className="text-white text-xl text-center"> Coming soon</h1>
         </animated.div>
     );
 };

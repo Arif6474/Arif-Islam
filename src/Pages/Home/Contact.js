@@ -25,7 +25,7 @@ const Contact = () => {
        
             <div className="container my-28">
   <div className="flex flex-col lg:flex-row  justify-between items-center">
-    <div className="basis-1/3 contact-body contact-div contact-box p-4 ">
+    <div className=" basis-1/3 my-8 contact-body contact-div contact-box p-4 ">
     <h1 data-aos="zoom-in-up" 
       data-aos-easing="linear"
       data-aos-duration="2000"
@@ -55,14 +55,14 @@ const Contact = () => {
       data-aos-easing="linear"
       data-aos-duration="2000"
        src={email} alt="" className="rounded-full w-6 h-6" /> 
-    <p data-aos="fade-down-left"  
+    <p data-aos="zoom-in"  
     data-aos-easing="linear"
     data-aos-duration="2000"
      className=" text-white pt-3 pl-2 ">  arifulislam64743@gmail.com</p>
     </div>
       
     </div>
-    <div className=" basis-2/4 box-body box-div box2 p-4">
+    <div className=" lg:basis-2/4 box-body box-div2 box2 p-4">
    
       <form ref={form} onSubmit={sendEmail}
        

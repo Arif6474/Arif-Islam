@@ -103,23 +103,7 @@ const ParticlesBackground = () => {
             remove: {
               quantity: 2
             },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-              factor: 100,
-              speed: 1,
-              maxSpeed: 50,
-              easing: "ease-out-quad",
-              divs: {
-                distance: 200,
-                duration: 0.4,
-                factor: 100,
-                speed: 1,
-                maxSpeed: 50,
-                easing: "ease-out-quad",
-                selectors: []
-              }
-            },
+           
             trail: {
               delay: 1,
               pauseOnStop: false,

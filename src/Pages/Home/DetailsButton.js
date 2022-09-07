@@ -19,7 +19,7 @@ const DetailsButton = () => {
              <ReactiveButton
       buttonState={state}
       idleText="Details"
-      color="yellow" 
+      color="teal" 
       style={{fontSize: '16px' , fontWeight: 'bold'}}
       outline 
       shadow
