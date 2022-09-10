@@ -6,6 +6,7 @@ import './Contact.css'
 import address from '../../images/programming/address.png'
 import phone from '../../images/programming/phone.png'
 import email from '../../images/programming/email2.png'
+
 const Contact = () => {
   const form = useRef();
 
@@ -60,7 +61,6 @@ const Contact = () => {
     data-aos-duration="2000"
      className=" text-white pt-3 pl-2 ">  arifulislam64743@gmail.com</p>
     </div>
-      
     </div>
     <div className=" lg:basis-2/4 box-body box-div2 box2 p-4">
    

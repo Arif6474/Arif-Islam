@@ -22,7 +22,7 @@ const DetailsButton = () => {
       color="teal" 
       style={{fontSize: '16px' , fontWeight: 'bold'}}
       outline 
-      shadow
+      
       loadingText="Loading"
       successText="Done"
       onClick={onClickHandler}

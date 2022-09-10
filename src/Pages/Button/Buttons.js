@@ -27,7 +27,7 @@ const Buttons = () => {
       loadingText="Loading"
       successText="Done"
       outline 
-      shadow
+   
       onClick={onClickHandler}
     />
     </div>

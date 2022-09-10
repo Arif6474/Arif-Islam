@@ -1,5 +1,4 @@
 import React from 'react';
-import DetailsButton from './DetailsButton';
 import './Project.css'
 
 const Project = ({project}) => {
@@ -17,9 +16,9 @@ const Project = ({project}) => {
         data-aos-easing="linear"
         data-aos-duration="2000" className="text-lg font-bold text-white text-center"> {name}</h2>
    <div className="mx-auto">
-    <DetailsButton/>
+   <button className="detail-btn ">Details</button>
+    
     </div>
-   
   </div>
   </div>
 </div>

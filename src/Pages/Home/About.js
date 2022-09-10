@@ -1,5 +1,6 @@
 import React from 'react';
 import coder from '../../images/coder5-removebg-preview.png'
+import ProjectModal from './ProjectModal';
 const About = () => {
   
     return (
@@ -28,7 +29,7 @@ const About = () => {
       data-aos-easing="linear"
       data-aos-duration="1500" 
        className="lg:pt-6 text-slate-400 font-semibold">I'm a Junior Web Developer. I'm constantly learning programming language for improving my skill. I want to be a full stack web developer. I have already done some projects. I want to learn new languages more and more.</p>
-      
+      <ProjectModal/>
     </div>
   </div>
 </div>
