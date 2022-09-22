@@ -15,7 +15,7 @@
   box-shadow: -5px -5px 9px rgba(0,255,255,0.7), 5px 5px 9px rgba(94,104,121,0.3);
   }
   .project-box2{
-  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+  box-shadow: inset -5px -5px 9px rgba(0,255,255,0.7), inset 5px 5px 9px rgba(0,255,255,0.7);
   }
   .project-circle{
     display: flex;
@@ -41,11 +41,12 @@
     font-size: 16px;
     font-weight: 600;
     color: rgb(63, 210, 240);
-   
+   cursor: pointer;
+   transition: all ease 0.5;
     border: 1px solid rgb(87, 214, 249);
   }
   .detail-btn:hover {
-     background:#ed0d41;
-     color: rgb(95, 191, 165);
+     background:#0de5ed;
+     color: rgb(241, 248, 246);
      
     }

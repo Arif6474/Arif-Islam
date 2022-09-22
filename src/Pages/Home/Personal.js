@@ -32,7 +32,7 @@ const Personal = () => {
        data-aos="zoom-in"  
        data-aos-easing="linear"
        data-aos-duration="1200"
-        className=" font-bold text-2xl text-amber-200 " >Junior Web Developer</p>
+        className=" font-bold text-2xl text-amber-200 " >MERN Stack Developer</p>
        <Buttons />
     </div>
   </div>

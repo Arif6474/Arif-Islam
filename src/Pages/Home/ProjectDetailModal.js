@@ -1,21 +1,26 @@
 import React from "react";
 
-const ProjectDetailModal = () => {
+const ProjectDetailModal = ({ detailModal }) => {
   return (
     <div>
- 
-<label htmlFor="my-modal-4" className="btn modal-button">open modal</label>
-
-
-<input type="checkbox" id="my-modal-4" className="modal-toggle" />
-<label htmlFor="my-modal-4" className="modal cursor-pointer">
-  <label className="modal-box relative" for="">
-    <h3 className="text-lg font-bold">Congratulations random Internet user!</h3>
-    <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-  </label>
-</label>
+      <input type="checkbox" id="my-modal-6" className="modal-toggle" />
+      <div className="modal modal-bottom sm:modal-middle">
+        <div
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="modal-box bg-white border-y-4 border-teal-500"
+        >
+          <p className="py-4">Employee Name: {detailModal.name}</p>
+          <p className="py-4">
+            Employee ID:{" "}
+            <span className="font-family">{detailModal.id}</span>{" "}
+          </p>
+          
+       
+        </div>
+      </div>
     </div>
-    
   );
 };
 

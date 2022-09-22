@@ -1,11 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Project.css'
 
 const Project = ({project}) => {
-    const { name , picture } = project;
-    
+    const {_id, name , picture } = project;
+
+    const navigate = useNavigate();
+    const navigateToProjectDetail = (id) => {
+      navigate(`/project/${id}`)
+    }
     return (
-        <div className="w-4/5 mx-auto project-body project-div project-circle">
+        <div className="w-4/5 mx-auto project-div project-box2">
             
   <div className="mx-auto p-12 ">
   <figure><img data-aos="zoom-in"  
@@ -16,8 +21,11 @@ const Project = ({project}) => {
         data-aos-easing="linear"
         data-aos-duration="2000" className="text-lg font-bold text-white text-center"> {name}</h2>
    <div className="mx-auto">
-   <button className="detail-btn ">Details</button>
-    
+   <button 
+   data-aos="zoom-in-up"  
+   data-aos-easing="linear"
+   data-aos-duration="2000" onClick={() =>navigateToProjectDetail(_id)} className="detail-btn">Details</button>
+ 
     </div>
   </div>
   </div>

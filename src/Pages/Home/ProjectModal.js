@@ -30,7 +30,7 @@ const ProjectModal = () => {
   }
   return (
     <div>
-      <button onClick={openModal}>Open Modal</button>
+      <button onClick={openModal}>Detail</button>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
