@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 const useProjects = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/project')
+        fetch('https://personal-portfolio-server-arif-islam.vercel.app/project')
         .then(res => res.json())
         .then(data => setProjects(data))
     },[])

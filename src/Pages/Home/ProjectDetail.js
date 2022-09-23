@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,7 +14,7 @@ const ProjectDetail = () => {
   const [detail, setDetail] = useState({});
   console.log(detail);
   useEffect(() => {
-    const url = `http://localhost:5000/project/${projectId}`;
+    const url = `https://personal-portfolio-server-arif-islam.vercel.app/project/${projectId}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDetail(data));
@@ -49,25 +49,25 @@ const ProjectDetail = () => {
             />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={detail.picture} alt="" />
+            <img src={detail.p2} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={detail.picture} alt="" />
+            <img src={detail.p3} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={detail.picture} alt="" />
+            <img src={detail.p4} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={detail.picture} alt="" />
+            <img src={detail.p5} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={detail.picture} alt="" />
+            <img src={detail.p6} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={detail.picture} alt="" />
+            <img src={detail.p7} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={detail.picture} alt="" />
+            <img src={detail.p8} alt="" />
           </SwiperSlide>
         </Swiper>
       </div>

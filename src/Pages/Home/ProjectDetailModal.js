@@ -16,8 +16,7 @@ const ProjectDetailModal = ({ detailModal }) => {
             Employee ID:{" "}
             <span className="font-family">{detailModal.id}</span>{" "}
           </p>
-          
-       
+        
         </div>
       </div>
     </div>

@@ -1,40 +1,82 @@
-[
-    {
-      
-      "picture": "https://i.ibb.co/kJLxK3h/Screenshot-48.png",
+[  
+  {     
+  "picture" :
+  "https://i.ibb.co/pwVm2vb/My-project.png" ,
+  "name" :"TMT" ,
+  "title" : "Project-3",
+  "features" : "Responsive UI with animation and firebase authentication. Team leader can manage his team members. He can provide review,assign tasks add and remove members and can delete teams.Members can see his completed, uncompleted task and update the pending task etc.",
+  "technology" : "HTML, Tailwind, React, React data table, AOS, Nodemailer, Sendinblue, EmailJs, Node.js, Express.js, Firebase, Mongodb, Heroku",
+  "live" :
+  "https://game-of-rl.web.app/",
+  "client" :
+  "https://github.com/game-of-rl-II/task-management-client",
+  "server" :
+  "https://github.com/game-of-rl-II/task-management-server",
+  "p2"  :
+  "https://i.ibb.co/2dn9dJm/My-project-1.png",
+  "p3" :
+  "https://i.ibb.co/HBvG6mX/My-project-10.png",
+  "p4" :
+  "https://i.ibb.co/KyhcGXh/My-project-11.png",
+  "p5":
+  "https://i.ibb.co/gV1D4vS/My-project-8.png",
+  "p6":
+  "https://i.ibb.co/GnHNd1p/My-project-7.png",
+  "p7":
+  "https://i.ibb.co/LSBrcdg/My-project-5.png",
+  "p8":
+  "https://i.ibb.co/Czt4JhX/My-project-12.png"
+        },
+    { "picture": "https://i.ibb.co/kJLxK3h/Screenshot-48.png",
       "name": "Reliable Parts",
       "title": "Project-1",
-      "features": "An admin can manage all users, products, orders etc. He can add or delete products.Users can order products, update their profile and add a review. They will see their orders on my order page.",
+      "features": "Responsive UI and firebase authentication. An admin can manage all users, products, orders etc. He can add or delete products.(admin id & pass: tanzid@hasan.com & 123456)Users can order products, update their profile, add a review and can see their orders.",
       "technology": "HTML, Tailwind, DaisyUI, React, React router, React query, React toast, React hook form, JWT, Node.js, Express.js, Firebase, Mongodb, Heroku",
       "live" : "https://reliable-parts.web.app/", 
       "client" : "https://github.com/Arif6474/reliable-parts-client-side",
-      "server" : "https://github.com/Arif6474/reliable-parts-server-side"
-    
-    
+      "server" : "https://github.com/Arif6474/reliable-parts-server-side",
+      "p2"  :"https://i.ibb.co/qFRj4NV/My-project-14.png",
+"p3" :"https://i.ibb.co/n3tfGf4/My-project-15.png",
+"p4" :"https://i.ibb.co/dcPr5gH/My-project-18.png",
+"p5":"https://i.ibb.co/RQ6Btmt/My-project-16.png",
+"p6":"https://i.ibb.co/L0jC1cj/My-project-17.png",
+"p7":"https://i.ibb.co/t29JCJ3/My-project-21.png",
+"p8":"https://i.ibb.co/28KTjzP/My-project-22.png" 
     },
-    
       {
       
-        "picture": "https://i.ibb.co/K05064k/Screenshot-47.png",
-        "name": "TMT",
-        "title": "Project-3",
-        "features": "It’s a service provider site. It has a protected page. Implement firebase authentication(email/pass, google and github).",
-        "technology": "HTML, CSS, Bootstrap, React, React router, React toast, React spinner, React firebase hooks,Firebase(authentication) " ,
-        "live" : "https://game-of-rl.web.app/", 
-      "client" : "https://github.com/game-of-rl-II/task-management-client",
-      "server" : "https://github.com/game-of-rl-II/task-management-server"
-      },
-      {
-      
-        "picture": "https://i.ibb.co/n1Ld0r5/Screenshot-49.png",
+        "picture": "https://i.ibb.co/XkWwtCd/My-project-23.png",
         "name": "Fresh fruits and vegetables",
         "title": "Project-2",
         "features": "If a user logs in, he will see manage inventories,  add items, and my item pages. Users can upload , delete, or restock products.",
         "technology": "HTML, CSS, React, React bootstrap, React router, React toast, React firebase hooks, Node.js, Express.js, Firebase, Heroku, Mongodb",
         "live" : "https://fresh-fruits-vegetables.web.app/", 
       "client" : "https://github.com/Arif6474/fresh-fruits-vegetable-client",
-      "server" : "https://github.com/Arif6474/fresh-fruits-vegetable-server-side"
+      "server" : "https://github.com/Arif6474/fresh-fruits-vegetable-server-side",
+      "p2"  :
+"  https://i.ibb.co/WsXpDNp/My-project-25.png",
+"p3" :
+"https://i.ibb.co/3hNkTwC/My-project-24.png",
+"p4" :
+"  https://i.ibb.co/8rWhcW8/My-project-27.png",
+"p5":
+"https://i.ibb.co/S5LPB6c/My-project-28.png",
+"p6":
+"https://i.ibb.co/L1cwNz7/My-project-26.png",
+"p7":
+" https://i.ibb.co/RgYzb47/My-project-30.png",
+"p8":
+"https://i.ibb.co/jLmbdG0/My-project-31.png"
       }
   ]
   
 
+
+  
+  
+ 
+  
+  
+  
+
+  
