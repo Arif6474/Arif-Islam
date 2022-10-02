@@ -13,12 +13,12 @@ const Header = () => {
   <Container>
   <NavLink
   className={({ isActive }) =>
-  isActive ? " m-2 font-bold text-2xl text-amber-200 text-decoration-none rounded hover:text-amber-200 border-amber-200 border-b-2" : "m-2 font-bold text-2xl text-amber-200 text-decoration-none rounded hover:text-amber-200 "
+  isActive ? " m-2 font-bold text-xl text-amber-200 text-decoration-none rounded hover:text-amber-200 border-amber-200 border-b-2" : "m-2 font-bold text-2xl text-amber-200 text-decoration-none rounded hover:text-amber-200 "
 }
  as={Link} to="/" > Arif Islam</NavLink>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto text-lg font-bold ">
+    <Nav className="me-auto  font-bold pt-2">
            <NavLink 
             className={({ isActive }) =>
             isActive ? " m-2 text-teal-300 text-decoration-none rounded hover:text-teal-300 border-teal-300 border-b-2" : "text-white m-2 text-decoration-none rounded"

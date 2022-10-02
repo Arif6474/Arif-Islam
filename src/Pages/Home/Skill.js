@@ -15,7 +15,7 @@ const Skill = () => {
         data-aos="zoom-in"  
         data-aos-easing="linear"
         data-aos-duration="1200"
-        className="text-center text-3xl font-bold text-white">My Skill</h4>
+        className="text-center text-xl font-bold text-white">My Skill</h4>
         <div className="grid grid-cols-1  lg:grid-cols-4 gap-4 p-8 justify-items-center">
     <div
     data-aos="fade-down-left"  
@@ -67,7 +67,7 @@ const Skill = () => {
     data-aos-duration="1500"
      className="box-div box1 box-body">
     <div className="rounded">
-    <img src={react} className="rounded-full w-28 h-28 m-8" alt="people"/>
+    <img src={react} className="rounded-full w-28 h-28 m-8 bg-white" alt="people"/>
   </div>
   <div className="text-white items-center text-center">
       <h4 className="">React</h4>

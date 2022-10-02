@@ -12,9 +12,9 @@ import { EffectCoverflow, Pagination } from "swiper";
 const ProjectDetail = () => {
   const { projectId } = useParams();
   const [detail, setDetail] = useState({});
-  console.log(detail);
+
   useEffect(() => {
-    const url = `https://personal-portfolio-server-arif-islam.vercel.app/project/${projectId}`;
+    const url = `https://personal-portfolio-server-two.vercel.app/project/${projectId}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDetail(data));
@@ -71,31 +71,31 @@ const ProjectDetail = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div class="hero text-white mb-14">
-        <div class="hero-content text-center">
-          <div class="max-w-md">
+      <div className="hero text-white mb-14">
+        <div className="hero-content text-center">
+          <div className="max-w-md">
             <h1 
             data-aos="zoom-in"  
             data-aos-easing="linear"
-            data-aos-duration="2000" class="text-3xl font-bold ">{detail.name}</h1>
+            data-aos-duration="2000" className="text-3xl font-bold ">{detail.name}</h1>
             <p
             data-aos="fade-left"  
             data-aos-easing="linear"
-            data-aos-duration="2000" class="py-6 text-left font-semibold text-slate-300">
+            data-aos-duration="2000" className="py-6 text-left font-semibold text-slate-300">
              Features: {detail.features}
             </p>
             <p
             data-aos="fade-right"  
             data-aos-easing="linear"
-            data-aos-duration="2000" class="py-2 font-semibold text-slate-300">
+            data-aos-duration="2000" className="py-2 font-semibold text-slate-300">
              Used Technology: {detail.technology}
             </p>
          <div data-aos="fade-up"  
             data-aos-easing="linear"
             data-aos-duration="2000">
-         <a href={detail.live} class="detail-btn text-decoration-none m-2">Live</a>
-         <a href={detail.client} class="detail-btn text-decoration-none m-2">Client</a>
-         <a href={detail.server} class="detail-btn text-decoration-none m-2">Server</a>
+         <a href={detail.live} className="detail-btn text-decoration-none m-2">Live</a>
+         <a href={detail.client} className="detail-btn text-decoration-none m-2">Client</a>
+         <a href={detail.server} className="detail-btn text-decoration-none m-2">Server</a>
          
          </div>
           </div>

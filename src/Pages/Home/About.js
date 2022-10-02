@@ -18,7 +18,7 @@ const About = () => {
             data-aos="zoom-in-down"
             data-aos-easing="linear"
             data-aos-duration="1500"
-            className="text-3xl font-bold text-white "
+            className="text-xl font-bold text-white "
           >
             About Me
           </h1>

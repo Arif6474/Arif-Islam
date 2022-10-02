@@ -5,7 +5,7 @@ const useProject = projectId => {
    
     useEffect(() =>{
         
-     fetch(`http://localhost:3000/project/${projectId}`)
+     fetch(`https://personal-portfolio-server-two.vercel.app/project/${projectId}`)
      .then(res => res.json())
     .then(data => setProject(data))
     },[projectId])
