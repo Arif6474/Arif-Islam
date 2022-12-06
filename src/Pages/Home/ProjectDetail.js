@@ -14,7 +14,7 @@ const ProjectDetail = () => {
   const [detail, setDetail] = useState({});
 
   useEffect(() => {
-    const url = `https://personal-portfolio-server-two.vercel.app/project/${projectId}`;
+    const url = `https://personal-portfolio-server-side.vercel.app/project/${projectId}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDetail(data));
